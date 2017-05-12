@@ -3,8 +3,9 @@ This project is a machine learning application using Apache Spark ML.Model accur
 Our system can be trained using four different machine learning techniques. They are Generalized Linear Regression, Gradient Boosted Tress Regression, Random Forest Regression and Decision Tree Regression. To improve predictions made from a computer simulated model, please upload the data file and choose any of the ML technique.
 
 #### Instructions: #### 
-The uploaded input data file should contain the observed data in the first column and their model’s predicted values in the second column. The remaining columns in the data file can come in any order and will be used as feature set to train the system. 
+The uploaded input data file should contain the observed data in the first column and their model's predicted values in the second column. The remaining columns in the data file can come in any order and will be used as the feature set to train the system. 
 
+## Screenshots: ## 
 
 1) Home Page: Choose machine Learning Regression Method for training the data set. 
 
@@ -23,7 +24,7 @@ Please find below the documentation of ML techniques used from Spark Tool:
 http://spark.apache.org/docs/latest/mllib-classification-regression.html
 ```
 
-# Quick Start:
+# Quick Start [Using Docker]:
 This tool is completely dockerized. Now you can deploy this tool on any machine which is configured with a docker engine.
 To deploy the tool, use below docker command.
 ```
@@ -33,7 +34,7 @@ To deploy the tool, with a volume ( for development/debugging):
 ```
 docker run -v /home/docker/machine_learning_prms_accuracy:/regtool --name <container_name> -p 5022:5000 josepainumkal/machine_learning_prms_accuracy:jose_thesis python views.py
 ```
-In the above command, "/home/docker/machine_learning_prms_accuracy" is the location of the tool's repository in container's host machine. Replace it with your repository location. 
+In the above command, "/home/docker/machine_learning_prms_accuracy" is the location of the tool's repository in host machine. Replace it with your repository location in host machine. 
 
 
 # To work without docker setup:
