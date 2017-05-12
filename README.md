@@ -37,18 +37,6 @@ docker run -v /home/docker/machine_learning_prms_accuracy:/regtool --name <conta
 In the above command, "/home/docker/machine_learning_prms_accuracy" is the location of the tool's repository in host machine. Replace it with your repository location in host machine. 
 
 
-# To work without docker setup:
-
-Here is the command to install the requirements
-```
-sudo pip install requirements.txt
-```
-Here is the command to set up and run the program
-```
-python views.py -h <machine_ip> -p 5000 --threaded
-```
-Replace <machine_ip> with your machine ip address. The above command is to set up the server with your machine.
-
-Incase of any queries, please feel free to contact me at josepainumkal@gmail.com
+If you have any queries, please feel free to contact me at josepainumkal@gmail.com
 
 Thank you !!!
