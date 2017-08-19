@@ -6,6 +6,8 @@ Our system can be trained using four different machine learning techniques. They
 #### Instructions: #### 
 The uploaded input data file should contain the observed data in the first column and their model's predicted values in the second column. The remaining columns in the data file can come in any order and will be used as the feature set to train the system. 
 
+For a demo video, click [here](https://youtu.be/-6lvfZazpFE)
+
 ## Screenshots: ## 
 
 1) Home Page: Choose machine Learning Regression Method for training the data set. 
